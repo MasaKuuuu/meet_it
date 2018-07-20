@@ -5,5 +5,6 @@
 <body>
   <h1>Blade/Index</h1>
   <p>{{$msg}}</p>
+  <p>どんどんここに追加していきます</p>
 </body>
 </html>
