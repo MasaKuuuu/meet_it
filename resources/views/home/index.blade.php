@@ -8,12 +8,6 @@
   <p>どんどんここに追加していきます</p>
   <p>差分の確認はできるのか？</p>
   <p>エラーが止まった</p>
-  <$php
-  <?php echo $var
-  preg_match();
-
-  ?>
-  ?>
-
+  <p>test</p>
 </body>
 </html>
