@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 
 class IndexCntroller extends Controller
 {
-  public function home(){
-    return view('home.index',$data);
+  public function index(){
+    return view('home.index');
   }
 }

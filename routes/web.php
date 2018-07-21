@@ -14,5 +14,5 @@
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('home','IndexCntroller@home');
+Route::get('home','IndexCntroller@index');
 Route::get('confirm','ConfirmCntroller@confirm');
