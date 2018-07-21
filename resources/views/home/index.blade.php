@@ -1,13 +1,12 @@
 <html>
 <head>
-  <title>Hello/index</title>
+  <title>abogado</title>
 </head>
 <body>
-  <h1>Blade/Index</h1>
-  <p>{{$msg}}</p>
-  <p>どんどんここに追加していきます</p>
-  <p>差分の確認はできるのか？</p>
-  <p>エラーが止まった</p>
-  <p>test</p>
+  <h1>みんなで作るアンケートサイト</h1>
+  <form action="home" method="get">
+    <input type="text" name="title">
+    <input type="submit" value="作成">
+  </form>
 </body>
 </html>
