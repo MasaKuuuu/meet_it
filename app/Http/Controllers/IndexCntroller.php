@@ -6,8 +6,7 @@ use Illuminate\Http\Request;
 
 class IndexCntroller extends Controller
 {
-  public function index(){
-    $data = ['msg'=>'これはBladeを利用したサンプルです。',];
+  public function home(){
     return view('home.index',$data);
   }
 }
