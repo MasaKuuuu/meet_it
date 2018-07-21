@@ -13,7 +13,16 @@ class TQuestion extends Migration
      */
     public function up()
     {
-        //
+        Schema::create('t_question', function (Blueprint $table){
+          $table->increments('id');
+          $table->string('url_key');
+          $table->string('title');
+          $table->string('item1');
+          $table->string('item2');
+          $table->string('item3');
+          $table->string('item4');
+          $table->timestamps();
+        });
     }
 
     /**
@@ -23,6 +32,6 @@ class TQuestion extends Migration
      */
     public function down()
     {
-        //
+      Schema::dropIfExists('t_question');
     }
 }
